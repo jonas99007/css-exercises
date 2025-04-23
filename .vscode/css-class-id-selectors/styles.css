@@ -1,0 +1,19 @@
+.the-pink-class{
+    background-color: rgb(255,192,203);
+
+}
+
+#id-class {
+    color: blue;
+    font-size: 40px; 
+}
+
+.cool-class {
+font-size:34px;
+font-weight:bold;
+}
+
+
+#green {
+    background-color: green;
+}
