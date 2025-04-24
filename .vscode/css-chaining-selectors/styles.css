@@ -1,0 +1,13 @@
+.flex-row{
+display: flex; 
+flex-direction:row;
+}
+
+.avatar {
+    height:auto;
+    width:300px;
+} 
+.white-avatar{
+    height:auto;
+    width:200px;
+}
