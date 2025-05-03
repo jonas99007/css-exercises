@@ -6,6 +6,8 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  display: flex;
+
 }
 
 .header {
@@ -45,4 +47,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+div {
+    display: flex; 
 }
