@@ -7,7 +7,14 @@ body {
   background: #eee;
   font-family: Besley, serif;
   display: flex;
-  flex-grow: 1gi ; 
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  flex-grow: 1;
+  flex-basis: auto; 
+  box-sizing: border-box;
+
+
+
 }
 
 .header {
@@ -22,6 +29,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
 }
 
 .logo {
@@ -29,11 +37,12 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
 }
 
 button {
   border: none;
-  border-radius: 8px;
+  border-radius: 14px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
@@ -47,8 +56,24 @@ a {
 
 ul {
   list-style-type: none;
+  justify-content: center; 
+  align-items: center; 
+  display:flex; 
+  gap: 14px;
 }
 
 div {
     display: flex; 
+    
+}
+
+.right-side {
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    background: white; 
+    gap: 8px; 
+    align-items: center;
+   padding: 8px;
+
+   
 }
