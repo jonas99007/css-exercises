@@ -89,12 +89,22 @@ button.cancel {
 
 .header {
 font-weight: bold; 
-font-size: 24px; 
+font-size: 20px; 
 border:2px solid red;
+justify-content:flex-start;
 
 }
 
 div.modal {
 flex-direction: row; 
 
+}
+
+.button-wrapper {
+    display:flex;
+    justify-content:flex-start;
+}
+
+.text{
+    margin:16px;
 }
